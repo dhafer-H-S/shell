@@ -1,0 +1,3 @@
+#!/usr/bin/enc bash 
+#pid
+echo $BASHPID

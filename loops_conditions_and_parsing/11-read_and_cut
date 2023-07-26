@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this script that displays the content of the file including user and userid and the place of it 
+fileName="/etc/passwd"
+while IFS= read -r username userid homedir
+do
+	echo "$username:$userid:$homedir"
+done < $fileName

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#the content of the current directory
+#in alist format
+#where only the part of the name after the first dash is diplayed 
+
+for i in *;
+do
+	echo "$i" | cut -d'-' -f2
+done

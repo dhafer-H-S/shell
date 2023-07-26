@@ -1,0 +1,17 @@
+#!/usr/bin/env bash	
+#this file is going to add some  words to lines 
+
+n=0 
+while [ $n -le 9 ]
+do
+	if [ $n == 3 ] 
+	then
+		echo "bad luck"
+	elif [ $n == 7 ]
+	then
+		echo "good luck"
+	else 
+		echo "Best School"
+	fi
+	((n++))
+done
